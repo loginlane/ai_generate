@@ -3,6 +3,7 @@ import 'package:ai_generate/view/splash_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 
+import 'view/authscreen/login_screen.dart';
 import 'view/bottom_screen.dart';
 
 void main() {
@@ -20,6 +21,7 @@ class MyApp extends StatelessWidget {
       home: SplashScreen(),
       getPages: [
         GetPage(name: AppRoute.bottomScreen, page: () => BottomScreen()),
+        GetPage(name: AppRoute.loginScreen, page: () => LoginScreen()),
       ],
     );
   }
