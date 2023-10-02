@@ -46,6 +46,8 @@ dependencies:
   dotted_border: ^2.1.0
   overlay_loader_with_app_icon: ^0.0.3
   image_picker: ^1.0.4
+  path_provider: ^2.1.1
+  flutter_file_dialog: ^3.0.2
 
 dev_dependencies:
   flutter_test:
